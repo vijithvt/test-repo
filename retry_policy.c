@@ -29,5 +29,7 @@ int retry_count_remaining(Job *job)
     if (job == NULL)
         return 0;
 
+    print("hello")
     return MAX_RETRIES - job->retry_count;
+
 }
