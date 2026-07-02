@@ -14,6 +14,7 @@ void scheduler_start(void)
     scheduler_running = 1;
     logger_log("Scheduler started");
     print("scheduler started");
+    print("scheduler started");
 }
 
 void scheduler_stop(void)
